@@ -1,5 +1,5 @@
 {% set name = "csl" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: b0b256db2fcc3b6517baecea22837c4e77483f3db18f07b7c684bf61edeec7ea
+  sha256: 7af0c48de528089ba0f9ad6f8a01319978bd13eb1e12b31923e632b8d12a1261
 
 build:
   noarch: generic
